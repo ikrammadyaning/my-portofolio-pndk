@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="">
+
+  <!-- link phosphor icon -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<style>
+  #Beranda {
+    scroll-margin-top: 100px;
+  }
+
+  #aboutme {
+    scroll-margin-top: 100px;
+  }
+
+  #myskill {
+    scroll-margin-top: 100px;
+  }
+
+  #myskill1 {
+    scroll-margin-top: 100px;
+  }
+
+  #my-portofolio {
+    scroll-margin-top: 100px;
+  }
+
+  #my-contact {
+    scroll-margin-top: 90px;
+  }
+</style>
+
+<body class="light">
+
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="tombol">
+      <div class="logo-group">
+        <a href="#Beranda" class="Judul"><img src="img/i.png" alt=""></a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="#Beranda"><i class="ph ph-house"></i></a>
+          </li>
+          <li>
+            <a href="#aboutme"><i class="ph ph-user"></i></a>
+          </li>
+          <li>
+            <a href="#myskill"><i class="ph ph-monitor"></i></a>
+          </li>
+          <li>
+            <a href="#myskill1"><i class="ph ph-article"></i></a>
+          </li>
+          <li>
+            <a href="#my-portofolio"><i class="ph ph-clipboard-text"></i></a>
+          </li>
+          <li>
+            <a href="#my-contact"><i class="ph ph-phone-plus"></i></a>
+          </li>
+          <li>
+            <!-- <audio id="nasyid" loop>
+              <source src="/audio/My Hope (Allah) Nasheed By Muhammad al Muqit.mp3" type="audio/mp3">
+            </audio>
+            <button id="toggleBtn">Play Nasyid</button> -->
+            <select id="nasyidPilih" class="select">
+              <option value="audio/">Non Nasyid</option>
+              <option value="audio/The.mp3">The Way</option>
+              <option value="audio/My.mp3">My Hope</option>
+              <option value="audio/Wedding.mp3">Wedding</option>
+              <option value="audio/Dream.mp3">My Dream</option>
+            </select>
+
+            <audio id="audio"></audio>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="Beranda fade-up" id="Beranda">
+      <div class="Halaman-B">
+        <div class="judul-Beranda">
+          <div class="teks-judul">
+            <h2>Hi everyone, I'm <span style="color: #FDD835; text-shadow: white 0px 0px 5px;">Ikram M</span></h2>
+            <h1>I'm a <span style="color: #29B6F6; text-shadow: white 0px 0px 5px;" class="teks-web"></span></h1>
+          </div>
+
+          <div class="logo2">
+            <p>YOU CAN LOOK ME ON HERE <i class="ph ph-arrow-right"></i></p>
+            <a href="https://github.com/ikrammadyaning" target="_blank"><i class="ph ph-github-logo"></i></i></a>
+            <a href="" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+            <a href="mailto:ikrammadyaning@gmail.com" target="_blank"><i class="ph ph-envelope-open"></i></a>
+            <a href="https://youtube.com/@kromosom_10" target="_blank"><i class="ph ph-youtube-logo"></i></a>
+            <a href="https://www.instagram.com/ikram.mady_/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+            <a href=""><i class="ph ph-telegram-logo"></i></a>
+            <a href="https://www.tiktok.com/@kromosom_10" target="_blank"><i class="ph ph-tiktok-logo"></i></a>
+          </div>
+        </div>
+        <div class="img-a">
+          <img src="img/tentang1.jpeg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="aboutme" class="aboutme fade-up">
+      <div class="Halaman-A">
+        <div class="img-b">
+          <img src="img/about1.png" alt="">
+        </div>
+        <div class="teks-about">
+          <div class="teks-h1">
+            <h1 class="judul1">About Me</h1>
+          </div>
+          <h2><span style="font-size: 30px;">Hello I'm...</span>
+            <p style="color:#FDD835; text-shadow: white 0px 0px 3px;">Ikram Madyaning Qolbu Kamil</p> I'm a student at
+            <span style="color: #FDD835; text-shadow: #FDD835 0px 0px 3px;">Ponpes SMA TI HSI-IDN</span> Sukabumi.
+            I want to become a <span style="color: #29B6F6;">Graphic Designer</span> and <span
+              style="color: #29B6F6;">Web Developer.</span>
+            I started learning IT because I want to <span style="color: #29B6F6;">share da’wah</span> and follow the
+            needs of our modern time.
+
+            I love creating simple websites, and I enjoy learning new things every day.
+            My goal is to make <span style="color: #29B6F6;">creative, useful</span>, and <span
+              style="color: #29B6F6;">meaningful digital work</span>.
+          </h2>
+          <div class="isian">
+            <a href="#myskill"><button>Let's see to My Skill</button></a>
+            <a href=""><button>Or to My Project</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="myskill" class="my-skill1 fade-up">
+      <div class="Halaman-c">
+        <div class="teks-h2">
+          <h2><span style="color: #FDD835; text-shadow: white 0px 0px 4px;">Eksploring</span> My <span
+              style="color: #29B6F6; text-shadow: white 0px 0px 4px;">Design</span> tolls</h2>
+        </div>
+        <div class="home-skills">
+          <div class="grid-skills">
+            <div class="card-skills">
+              <img src="img/image.png" alt="">
+              <h1>Canva</h1>
+              <p>Canva is an easy-to-use graphic design tool used to create posters, presentations, social media posts,
+                banners, and more.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/figma.png" alt="">
+              <h1>Figma</h1>
+              <p>Figma is a professional design tool used for UI/UX design (app and website layouts).</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/capcut.png" alt="">
+              <h1>Capcut</h1>
+              <p>CapCut is a video editing app that’s simple but powerful.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/ai.png" alt="">
+              <h1>Adobe Ilustrator</h1>
+              <p>Adobe Illustrator is a professional vector-based design tool.
+                This means you can create designs that can be resized without losing quality.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/ps1.png" alt="">
+              <h1>Adobe Photoshop</h1>
+              <p>Photoshop is a photo editing and digital art software.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/lr.png" alt="">
+              <h1>Adobe Lightroom</h1>
+              <p>Lightroom is a powerful tool for photo color editing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-skill fade-up" id="myskill1">
+      <div class="halaman-d">
+        <div class="teks-h2">
+          <h2>The <span style="color: #29B6F6; text-shadow: white 0px 0px 2px;">Skills</span> I’m <span
+              style="color: #FDD835; text-shadow: white 0px 0px 2px;">Learning</span></h2>
+        </div>
+        <div class="home-skills">
+          <div class="grid-skills">
+            <div class="card-skills">
+              <img src="img/html5.webp" alt="">
+              <h1>HTML</h1>
+              <p>HTML is the standard language used to create the structure of a webpage.
+                You can think of HTML as the skeleton of a website.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/css.png" alt="">
+              <h1>CSS</h1>
+              <p>CSS is the language used to style and design the appearance of a webpage.
+                If HTML is the skeleton, CSS is the clothes or appearance.</p>
+            </div>
+            <div class="card-skills">
+              <img src="img/js.png" alt="">
+              <h1>JavaScript</h1>
+              <p>JavaScript is a programming language that makes websites interactive and dynamic.
+                If HTML is the structure (skeleton) and CSS is the style (clothes), then JavaScript is the brain of the
+                webpage.</p>
+            </div>
+          </div>
+          <div class="coding-skill">
+            <div class="bar">
+              <p>HTML</p>
+              <div style="width: 45vh; height: 10px; background-color: #2b2e41; border-radius: 20px;">
+                <div style="width: 41vh; height: 10px; background-color: red; border-radius: 20px;"></div>
+                <p style="text-align: right;">95%</p>
+              </div>
+            </div>
+            <div class="bar">
+              <p>CSS</p>
+              <div style="width: 45vh; height: 10px; background-color: #2b2e41; border-radius: 20px;">
+                <div style="width: 38vh; height: 10px; background-color: blue; border-radius: 20px;"></div>
+                <p style="text-align: right;">87%</p>
+              </div>
+            </div>
+            <div class="bar">
+              <p>JavaScript</p>
+              <div style="width: 45vh; height: 10px; background-color: #2b2e41; border-radius: 20px;">
+                <div style="width: 25vh; height: 10px; background-color: orange; border-radius: 20px;"></div>
+                <p style="text-align: right;">50%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="my-portofolio" class="fade-up">
+      <div class="halaman-e">
+        <div class="teks-h2">
+          <h2>The <span style="color: #29B6F6; text-shadow: white 0px 0px 3px;">Projects</span> that I have <span style="color: #FDD835; text-shadow: white 0px 0px 3px;">Worked</span> on</h2>
+        </div>
+        <div class="nahwu">
+          <h2>In the Subject of Nahwu</h2>
+          <div class="smpng">
+            <div class="Project">
+              <img src="img/desaign.jpg" alt="">
+              <div class="overlay">
+                <h1>Poster I'rob</h1>
+                <h3 style="text-align: center;">This is a poster of I'rob Al-Qur'an surah Al-Ikhlas verses 1 & 2</h3>
+                <a href="https://www.canva.com/design/DAG5nPNZ2J8/3E2F0xhiZiWudlsXwiKyWQ/edit?utm_content=DAG5nPNZ2J8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  target="_blank" rel="noopener noreferrer">click to see a preview</a>
+              </div>
+            </div>
+            <div class="Project">
+              <img src="img/orgvlog.jpg" alt="">
+              <div class="overlay">
+                <h1>Video I'rob</h1>
+                <h3 style="text-align: center;">This is a video of I'rob Al-Qur'an surah Al-Ikhlas verses 1 & 2</h3>
+                <a href="https://youtube.com/shorts/2eC2MsQKj0o" target="_blank" rel="noopener noreferrer">click to see
+                  a preview</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="IT">
+          <h2>In the Subject of IT</h2>
+          <div class="smpng">
+            <div class="Project">
+              <img src="img/IT.png" alt="">
+              <div class="overlay">
+                <h1>Portofolio in IT Lesson</h1>
+                <h3 style="text-align: center;">This is a portfolio in the IT subject. If you want to see it, please click on the text below.</h3>
+                <a href="https://ikrammadyaning.github.io/my-portofolio-IT/">Click to see Preview</a>
+                <a href="https://github.com/ikrammadyaning/my-portofolio-IT">and Click to see the Codes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="my-contact" class="halaman-f fade-up">
+        <div class="kata">
+          <h2 class="judul2">My <span style="color: #29B6F6; text-shadow: white 0px 0px 3px;">Contact</span></h2>
+        </div>
+        <div class="alamat-container">
+          <div class="alamat-info">
+            <h2>My Home address</h2>
+            <p>AL Kemang Complex ifi Graha Jln.Gender 2 No.272 Rt/Rw.05/07 Jatiasih District, Bekasi City, South Bekasi, West Java, 17424</p>
+            <h2>My Contact</h2>
+            <div class="flex1">
+              <div class="flex2">
+                <img src="img/wa.png" alt="">
+                <a href="https://wa.me/6285759040262" target="_blank">+62-857-5904-0262</a>
+              </div>
+              <div class="flex2">
+                <img src="img/ig.png" alt="">
+                <a href="https://www.instagram.com/ikram.mady_/" target="_blank">@ikram.mady</a>
+              </div>
+              <div class="flex2">
+                <img src="img/github.png" alt="">
+                <a href="https://github.com/ikrammadyaning/" target="_blank">ikrammadyaning</a>
+              </div>
+              <div class="flex2">
+                <img src="img/email.png" alt="">
+                <a href="mailto:ikrammadyaning@email.com" target="_blank">ikrammadyaning@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.748488793621!2d106.97099097507052!3d-6.296745961627952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69928eca8facc1%3A0xbdda610c248c8df9!2sPT.%20KARISMA%20MELATI%20SEDAYU%20GROUP!5e0!3m2!1sid!2sid!4v1762414600161!5m2!1sid!2sid"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="kata">
+          <h2 class="judul2">Let's <span style="color: #29B6F6; text-shadow: white 0px 0px 3px;">Connect</span></h2>
+        </div>
+        <div class="form-container fade-up">
+          <h3>Send me a Message</h3>
+          <form   action="https://formspree.io/f/mblnknog" method="POST" class="contact-form">
+            <label for="nama">Your Name:</label>
+            <input type="text" id="nama" name="nama" placeholder="Enter Your Name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required />
+
+            <label for="pesan">Massage:</label>
+            <textarea id="pesan" name="message" placeholder="Write Your Message here..." rows="5" required></textarea>
+
+            <button type="submit" class="btn-kirim">Send Message</button>
+          </form>
+        </div>
+        </section>
+      </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy;2025-2026 Ikram M. Copyright is protected by law</p>
+    </div>
+  </footer>
+
+  <script src="port.js"></script>
+
+</body>
+
+</html>
